@@ -1,0 +1,22 @@
+.block {
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border-radius: 8px;
+    border: 2px solid white;
+    float: left;
+    background-color:chocolate;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    font-weight: bold;
+    
+}
+.block.show{
+    border: 2px solid blue;
+    background-color: aqua;
+}
+.block.hide {
+    display: none;
+}

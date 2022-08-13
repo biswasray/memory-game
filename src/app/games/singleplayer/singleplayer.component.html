@@ -1,0 +1,38 @@
+<h1>{{title}}<span [ngClass]="'scores'">Moves : {{moves}}</span></h1>
+<!-- <app-card [index]="0" [val]="7" [style]="styles[1]" (onClick)="push($event)"></app-card> -->
+<div [ngClass]="'col ' + player">
+    <div [ngClass]="'row'">
+        <app-card [index]="0" [val]="array[0]" [style]="styles[0]" (onClick)="push($event)"></app-card>
+        <app-card [index]="1" [val]="array[1]" [style]="styles[1]" (onClick)="push($event)"></app-card>
+        <app-card [index]="2" [val]="array[2]" [style]="styles[2]" (onClick)="push($event)"></app-card>
+    </div>
+    <div [ngClass]="'row'">
+        <app-card [index]="3" [val]="array[3]" [style]="styles[3]" (onClick)="push($event)"></app-card>
+        <app-card [index]="4" [val]="array[4]" [style]="styles[4]" (onClick)="push($event)"></app-card>
+        <app-card [index]="5" [val]="array[5]" [style]="styles[5]" (onClick)="push($event)"></app-card>
+        <app-card [index]="6" [val]="array[6]" [style]="styles[6]" (onClick)="push($event)"></app-card>
+    </div>
+    <div [ngClass]="'row'">
+        <app-card [index]="7" [val]="array[7]" [style]="styles[7]" (onClick)="push($event)"></app-card>
+        <app-card [index]="8" [val]="array[8]" [style]="styles[8]" (onClick)="push($event)"></app-card>
+        <app-card [index]="9" [val]="array[9]" [style]="styles[9]" (onClick)="push($event)"></app-card>
+        <app-card [index]="10" [val]="array[10]" [style]="styles[10]" (onClick)="push($event)"></app-card>
+    </div>
+    <div [ngClass]="'row'">
+        <app-card [index]="11" [val]="array[11]" [style]="styles[11]" (onClick)="push($event)"></app-card>
+        <app-card [index]="12" [val]="array[12]" [style]="styles[12]" (onClick)="push($event)"></app-card>
+        <app-card [index]="13" [val]="array[13]" [style]="styles[13]" (onClick)="push($event)"></app-card>
+        <app-card [index]="14" [val]="array[14]" [style]="styles[14]" (onClick)="push($event)"></app-card>
+    </div>
+    <div [ngClass]="'row'">
+        <app-card [index]="15" [val]="array[15]" [style]="styles[15]" (onClick)="push($event)"></app-card>
+        <app-card [index]="16" [val]="array[16]" [style]="styles[16]" (onClick)="push($event)"></app-card>
+        <app-card [index]="17" [val]="array[17]" [style]="styles[17]" (onClick)="push($event)"></app-card>
+        <app-card [index]="18" [val]="array[18]" [style]="styles[18]" (onClick)="push($event)"></app-card>
+    </div>
+    <div [ngClass]="'row'">
+        <app-card [index]="19" [val]="array[19]" [style]="styles[19]" (onClick)="push($event)"></app-card>
+        <app-card [index]="20" [val]="array[20]" [style]="styles[20]" (onClick)="push($event)"></app-card>
+        <app-card [index]="21" [val]="array[21]" [style]="styles[21]" (onClick)="push($event)"></app-card>
+    </div>
+</div>

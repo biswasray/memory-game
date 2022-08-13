@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'memory-game';
+  title = 'Memory Game';
+  counter = 0;
+  increase() {
+    console.log("fgh");
+    this.counter++;
+  }
 }
